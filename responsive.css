@@ -1,19 +1,68 @@
 @media (max-width: 1000px) {
-/* 
+    
     .container{
         width: 900px;
         margin:  auto;
+    }
+
+    .gambar img{
+        width: 50%;
+        float: left;
+    }
+
+    .teks h2{
+        font-size: 35px;
+    }
+    
+    .teks p{
+        font-size: 20px;
+    }
+
+    .brand{
+        width: 100%;
+        margin-top: 130px;
+    }
+
+    .heading_wanita h2{
+        margin-bottom: -20px;
+    }
+
+    .heading_pria h2{
+        margin-bottom: -20px;
     }
 
     .kategori {
         width: 50%;
     }
 
-    .brand{
-        width: 100%;
+    .kategori img{
+        width: 80%;
+    }  
+
+    .kategori p{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 20px;
     }
 
-} */
+    footer{
+        background-color: #2C2C54;
+        margin-top: 950px;
+        height: 300px;
+    }
+
+    .kiri{
+        width: 50%;
+        padding-left: 130px;
+    }
+
+    .kanan{
+        width: 50%;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+}
 
 
 @media (max-width: 670px) {
