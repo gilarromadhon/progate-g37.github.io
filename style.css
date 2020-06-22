@@ -1,6 +1,11 @@
+
+* {
+    box-sizing: border-box;
+}
+
 body{
     font-family: 'Poppins', sans-serif;
-    margin: auto;
+    margin: 0;
 }
 
 li{
@@ -8,12 +13,13 @@ li{
 }
 
 html{
-    scroll-behavior:smooth
+    scroll-behavior:smooth;
 }
 
 .container{
-    width: 1170px;
-    margin:  auto;
+    width: 90%;
+    margin:  0 auto;
+    padding: 0 30px;
 }
 
 .logo h1{
@@ -23,21 +29,18 @@ html{
 
 .subs {
     float: right;
-    margin-top: 18px;
 }
 
 .subs a{
-    margin-left: 20px;
-
     color: white;
     text-decoration: none;
-}
-
-.subs a {
     transition: all 0.5s;
-    padding: 19px 10px;
-
-  }
+    padding: 0 26px;
+    padding-top: 1px;
+    line-height: 63px;
+    display: inline-block;
+    margin: -2px;
+}
   
 .subs a:hover {
     background-color: rgba(255, 255, 255, 0.7);
@@ -55,120 +58,165 @@ html{
     z-index: 1;
 }
 
+span.fa.fa-bars.menu-icon {
+    font-size: 27px;
+    padding: 0 20;
+    line-height: 60px;
+    border-radius: 5px;
+    float: right;
+    display: none;
+}
+
+.gambar {
+    width: 60%;
+    display: inline-block;
+}
+
 .gambar img{
-    width: 50%;
-    float: left;
+    width: 100%;
 }
 
 .jumbotron{
-    margin-top: 80px;
+    margin-top: 130px;
 }
+
+.jumbotron .container {
+    position: relative;
+}
+
 .teks{
-    padding-top: 40px;
+    width: 40%;
     color: #2C2C54;
+    display: inline-block;
+    position: absolute;
+    top: 142px;
 }
 
 .teks h2{
-    text-align: center;
+    text-align: left;
     font-size: 50px;
     font-weight: 700;
+    margin: 0 0 5px;
 }
 
 .teks p{
-    text-align: center;
-    margin-top: -10px;
+    margin: 0;
     font-size: 25px;
 }
 
 .brand{
-    margin-top: 120px;
-    height: 100px;
+    margin-top: 100px;
+    height: max-content;
     background-color: #F2F2F5;
+    padding: 20px 0;
+}
+
+.brand-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: max-content;
 }
 
 .brand img{
-    margin-top: 20px;
-    margin-left: 70px;
-    width: 50%;
+    width: 100%;
     opacity: 0.5;
 }
 
 .merk {
-    float: left;
-    width: 25%;
-    margin-right: 0px;
+    display: inline-block;
+    width: 18%;
 }
 
-.konten{
+.konten {
+    padding: 70px 0;
+}
+
+article {
     margin-top: -50px;
-    text-align: center;
 }
   
-.heading_wanita{
-    padding-top: 80px;
-    padding-bottom: 50px;
+.heading_catalog{
     color: #2C2C54;
 }
 
-.heading_pria{
-    padding-top: 80px;
-    padding-bottom: 50px;
-    color: #2C2C54;
+.heading_catalog h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
 }
 
-.wanita{
-    margin-top: -20px;
+.catalog{
+    padding: 20px 0 5px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1px solid #707070;
+    margin-bottom: 100px;
 }
 
 .kategori {
-    float: left;
-    width: 25%;
-    margin-right: 0px;
+    display: inline-block;
+    width: 20%;
+    transition: transform .3s;
 }
 
 .kategori img{
-      width: 90%;
-      transition: transform .3s;
+    width: 100%;
+    border-radius: 5px
 }
 
-.kategori img:hover{
+.kategori:hover{
     cursor: pointer;
     transform: scale(1.1); 
 }
-  
+
+.kategori p {
+    text-align: center;
+    color: #2C2C54;
+    font-size: 20px;
+}
+
 .heading h3 {
     font-weight: normal;
 }
 
-.clear_wanita{
-    margin-bottom: 250px;
-}
-
-.clear_pria{
-    margin-bottom: 400px;
-}
-
 footer{
     background-color: #2C2C54;
-    height: 300px;
+    height: 310px;
+    padding: 50px 0;
+}
+
+footer .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .kiri{
-    padding-top: 50px;
     color: white;
     width: 25%;
-    float: left;
+    display: inline-block;
 }
 
 .kiri p{
-    margin-top: -15px;
     opacity: 0.5;
+    margin: 0;
+}
+
+.nama h1 {
+    margin: 10px 0;
+    font-size: 34px;
+}
+
+.kontak p {
+    letter-spacing: 2px;
+    font-size: 18px;
 }
 
 .kanan{
-    float: right;
+    display: inline-block;
     width: 25%;
-    padding-top: 50px;
 }
 
 .keterangan span{
@@ -181,21 +229,30 @@ footer{
     color: white;
 }
 
+.keterangan p {
+    letter-spacing: 2px;
+}
+
 
 .form input{
     width: 70%;
     height: 10%;
     color: rgba(0,0,0,0.5);
-    font-size:10px;
-    text-align: center;
-    border: 1px solid #dee7ec;
+    font-size: 12px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: none;
 }
 
 .form button{
     font-weight: 200;
     width: 25%;
     height: 10.5%;
-    font-size:10px;
+    font-size: 12px;
     text-align: center;
+    border: none;
+    border-radius: 3px;
+    padding: 8px;
+    color: grey;
 }
 
