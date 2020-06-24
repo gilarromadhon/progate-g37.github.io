@@ -1,324 +1,76 @@
-
-@media (max-width: 1300px) {
-    .teks {
-        top: 50px;
-    }
-    
-
-    .kanan {
-        width: 33%;
-    }
-}
-
-@media (max-width: 1100px) {
-
-    .container {
-        padding: 0 50px
-    }
-
-    .teks {
-        top: 20px;
-    }
-
-    .teks h2 {
-        font-size: 39px;
-    }
-
-    .teks p {
-        font-size: 20px;
-    }
-
-    .brand {
-        padding: 30px 0;
-    }
-
-    .merk {
-        width: 43%;
-    }
-
-    .brand-wrapper {
-        padding: 0 80px;
-    }
-
-    .heading_catalog h2 {
-        font-size: 32px;
-    }
-
-    .kategori {
-        width: 40%;
-        margin-bottom: 25px;
-    }
-
-    .kategori p {
-        font-size: 22px;
-    }
-
-    .catalog {
-        padding-top: 30px;
-    }
-
-    .merk {
-        width: 40%;
-    }
-
-    .kanan {
-        width: 45%;
-    }
-
-}
-
-@media (max-width: 900px) {
-
-    .container {
-        padding: 0 20px
-    }
-
-    .jumbotron {
-        margin-top: 110px;
-    }
-
-    .gambar {
-        width: 100%;
-    }
-
-    .teks {
-        width: 100%;
-        position: static;
-        text-align: center;
-    }
-
-    .teks h2 {
-        text-align: center;
-    }
-
-    .brand {
-        margin-top: 150px;
-    }
-
-    footer {
-        height: 330px;
-    }
-
-    .kiri {
-        width: 56%;
-        margin-bottom: 20px;
-    }
-
-    .kiri, .kanan {
-        width: 100%;
-    }
-
-    footer {
-        height: 500px;
-        text-align: center;
-    }
-
-    .kategori {
-        width: 100%;
-        padding: 50px
-    }
-
-    .merk {
-        width: 100%;
-        padding: 30px
-    }
-
-    .subs {
-        display: none;
-    }
-
-    span.fa.fa-bars.menu-icon {
-        display: inline-block;
-    }
-
-}
-
-
-@media (max-width: 480px) {
-
-    .merk {
-        width: 70%;
-        margin-bottom: 20px;
-    }
-
-    .teks h2 {
-        font-size: 30px;
-    }
-
-    .brand {
-        margin-top: 110px;
-    }
-
-    .brand-wrapper {
-        padding: 0;
-    }
-
-    .merk {
-        width: 80%;
-        margin-bottom: 0;
-    }
-
-    .kategori {
-        padding: 0;
-        width: 100%;
-    }
-
-    .kontak p {
-        font-size: 13px;
-    }
-
-    .form input, .form button {
-        font-size: 10px
-    }
-
-    .heading_catalog h2 {
-        text-align: center;
-    }
-
-}
-=======
-@media (max-width: 1000px) {
-    
-    .container{
-        width: 900px;
-        margin:  auto;
-    }
-
-    .gambar img{
-        width: 50%;
-        float: left;
-    }
-
-    .teks h2{
-        font-size: 35px;
-    }
-    
-    .teks p{
-        font-size: 20px;
-    }
-
-    .brand{
-        width: 100%;
-        margin-top: 130px;
-    }
-
-    .heading_wanita h2{
-        margin-bottom: -20px;
-    }
-
-    .heading_pria h2{
-        margin-bottom: -20px;
-    }
-
-    .kategori {
-        width: 50%;
-    }
-
-    .kategori img{
-        width: 80%;
-    }  
-
-    .kategori p{
-        margin-top: 30px;
-        margin-bottom: 30px;
-        font-size: 20px;
-    }
-
-    footer{
-        background-color: #2C2C54;
-        margin-top: 950px;
-        height: 300px;
-    }
-
-    .kiri{
-        width: 50%;
-        padding-left: 130px;
-    }
-
-    .kanan{
-        width: 50%;
-        padding-left: 100px;
-        padding-right: 100px;
-    }
-
-}
-
-
-@media (max-width: 670px) {
-
-    .container{
-        width: 500px;
-        margin:  auto;
-    }
-    
-    .subs a{
-        margin-left: 2px;
-        font-size: 10px;
-        padding: 25px 10px 21px 10px;
-    }
-
-    .gambar img{
-        width: 100%;
-        float: left;
-    }
-
-    .teks h2{
-        font-size: 40px;
-    }
-    
-    .teks p{
-        font-size: 15px;
-    }
-
-
-    .brand{
-        width: 100%;
-        margin-top: 30px;
-    }
-    
-    .brand img{
-        margin-top: 30px;
-        margin-left: 30px;
-        width: 80%;
-    }
-
-    .heading_wanita h2{
-        margin-bottom: -20px;
-    }
-
-    .heading_pria h2{
-        margin-bottom: -20px;
-    }
-
-    .kategori {
-        width: 100%;
-    }
-
-    .kategori img{
-        width: 70%;
-    }  
-
-    .kategori p{
-        margin-top: 30px;
-        margin-bottom: 30px;
-        font-size: 20px;
-    }
-
-    .clear_wanita{
-        margin-bottom: 1600px;
-    }
-
-    footer{
-        background-color: #2C2C54;
-        margin-top: 1800px;
-        height: 300px;
-    }
-
-    .kiri{
-        width: 50%;
-    }
-
-    .kanan{
-        width: 50%;
-    }
+@media (max-width: 660px) {
+  /* Mobile devices */
+  body {
+    width: 100vw;
+  }
+
+  .subs {
+    max-height: 0;
+    overflow: hidden;
+    background-color: #2c2c54;
+    display: none;
+  }
+
+  #menu-toggle:checked + .subs {
+    display: block;
+
+    width: 100%;
+    max-height: 200px;
+    overflow-y: auto;
+
+    position: absolute;
+    top: 60px;
+    left: 0;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header-left {
+    display: block;
+  }
+
+  .jumbotron .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .gambar {
+    width: 100%;
+  }
+
+  .teks {
+    width: 100%;
+    text-align: center;
+  }
+
+  .teks h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .teks p {
+    font-size: 14px;
+  }
+
+  .catalog {
+    flex-direction: column;
+  }
+
+  .kategori {
+    width: 100%;
+  }
+
+  footer .container {
+    flex-direction: column;
+  }
+
+  footer .container > * {
+    padding: 50px 0;
+  }
+
+  footer .container .kanan {
+    width: 100%;
+  }
 }
